@@ -7,6 +7,7 @@ body {
   --second-text-color: #757575;
   --accent-color: #2196f3;
   --btn-text-color: #ffffff;
+  --first-background-color: #2f303a;
 }
 
 .list {
@@ -40,7 +41,7 @@ body {
   color: var(--accent-color);
 }
 
-.text-color {
+.header-text-color {
   color: var(--main-text-color);
 }
 
@@ -50,6 +51,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .header-mail,
@@ -73,7 +78,7 @@ body {
 /* ----- Hero ------ */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--first-background-color);
   text-align: center;
 }
 
@@ -88,6 +93,7 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -142,6 +148,10 @@ body {
 
 /* ----- Team ----- */
 
+.team {
+  background-color: #f5f4fa;
+}
+
 .team-item-name {
   font-weight: 500;
   font-size: 16px;
@@ -165,15 +175,22 @@ body {
   background-color: #2f303a;
 }
 
+.footer-text-color {
+  color: var(--btn-text-color);
+}
+
 .footer-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--btn-text-color);
+  tex
 }
 
 .footer-mail,
 .footer-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -186,6 +203,5 @@ body {
 .footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
-  font-weight: 500;
-  color: #ffffff;
+  color: var(--accent-color);
 }
