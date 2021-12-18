@@ -8,6 +8,7 @@ body {
   --accent-color: #2196f3;
   --btn-text-color: #ffffff;
   --first-background-color: #2f303a;
+  --portfolio-btn-color: #f5f4fa;
 }
 
 .list {
@@ -206,3 +207,38 @@ body {
 }
 
 /* ----- Portfolio ----- */
+
+.projects-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background: var(--portfolio-btn-color);
+  border-radius: 4px;
+}
+
+.projects-btn:hover {
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.projects-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.projects-list-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
