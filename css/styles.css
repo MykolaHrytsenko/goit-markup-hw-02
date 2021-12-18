@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
 }
 
 :root {
@@ -8,7 +9,7 @@ body {
   --accent-color: #2196f3;
   --btn-text-color: #ffffff;
   --first-background-color: #2f303a;
-  --portfolio-btn-color: #f5f4fa;
+  --second-background-color: #f5f4fa;
 }
 
 .list {
@@ -128,7 +129,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color);
 }
 .features-item-text {
   font-size: 14px;
@@ -145,13 +145,12 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }
 
 /* ----- Team ----- */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--second-background-color);
 }
 
 .team-item-name {
@@ -160,7 +159,6 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }
 
 .team-item-pisitions {
@@ -217,7 +215,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  background: var(--portfolio-btn-color);
+  background: var(--second-background-color);
   border-radius: 4px;
 }
 
